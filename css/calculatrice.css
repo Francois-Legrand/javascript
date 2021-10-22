@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    
+}
+.box{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 325px;
+    background-color: black;
+}
+.tonbou{
+    width:330px;
+    border-left: 5px solid rgb(117, 117, 117);
+    border-bottom: 5px solid rgb(117, 117, 117);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 115px;
+    background-color: black;
+
+    
+    border-bottom: 5px solid rgb(117, 117, 117);
+    border-right: 5px solid rgb(117, 117, 117);
+}
+
+
+.margin{
+    margin-bottom: 10px;
+}
+#affichage{
+    background-color: black;
+    color: white;
+    width: 445px;
+    height: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 3rem;
+    border:5px solid grey;
+    text-align: end;
+}
+.row{
+    display: flex;
+
+}
+p{
+    text-align: right;
+}
+button{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+.CE:hover{
+    background-color: rgb(0, 0, 255);
+    color:white;
+}
+.egal:hover{
+    color:white;
+    background-color: rgba(251, 255, 0, 0.493);
+}
+.return:hover{
+    color:white;
+    background-color: rgba(25, 0, 255, 0.493);
+}
+.plus:hover{
+    color:white;
+    background-color: rgba(225, 0, 255, 0.493);
+}
+.moin:hover{
+    color:white;
+    background-color: rgba(0, 255, 213, 0.493);
+}
+.point:hover{
+    color:white;
+    background-color: rgba(255, 0, 200, 0.493);
+}
+.AC:hover{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+.fois:hover{
+    color:white;
+    background-color: rgba(30, 255, 0, 0.493);
+}
+.divi:hover{
+    color:white;
+    background-color: rgba(251, 255, 0, 0.493);
+}
+.pourcent:hover{
+    background-color: rgb(255, 97, 97);
+}
+.eight:hover{
+    color:white;
+    background-color: rgba(255, 0, 76, 0.493);
+}
+.nine:hover{
+    color:white;
+    background-color: rgba(0, 89, 255, 0.493);
+}
+.seven:hover{
+    color:white;
+    background-color: rgb(251, 255, 0);
+}
+.six:hover{
+    color:white;
+    background-color: rgb(255, 115, 0);
+}
+.five:hover{
+    color:white;
+    background-color: rgb(187, 255, 0);
+}
+.four:hover{
+    color:white;
+    background-color: rgb(0, 255, 119);
+}
+.three:hover{
+    color:white;
+    background-color: rgb(0, 255, 213);
+}
+.two:hover{
+    color:white;
+    background-color: rgb(0, 162, 255);
+}
+.one:hover{
+    color:white;
+    background-color: rgb(247, 0, 255);
+}
+.zero:hover{
+    color:white;
+    background-color: rgba(102, 255, 0, 0.493);
+}
+.container{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue{
+    width: 50PX;
+    height: 50px;
+    
+}
+.red{
+    width: 50PX;
+    height: 50px;
+    
+}
+.green{
+    width: 50PX;
+    height: 50px;
+    
+}
+.yellow{
+    width: 50PX;
+    height: 50px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(101, 101, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(101, 101, 255);
+}
+a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}

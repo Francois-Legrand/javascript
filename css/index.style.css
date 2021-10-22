@@ -1,0 +1,37 @@
+.container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue{
+    width: 150PX;
+    height: 150px;
+    
+}
+.red{
+    width: 150PX;
+    height: 150px;
+    
+}
+.green{
+    width: 150PX;
+    height: 150px;
+    
+}
+.yellow{
+    width: 150PX;
+    height: 150px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(101, 101, 255);
+}
+a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}

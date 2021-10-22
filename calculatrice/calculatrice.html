@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Mon projet</title>
+        <link rel="stylesheet" href="../css/calculatrice.css">
+        <script src="../js/calculatrice.js" async></script>
+    </head>
+    <body>
+        <nav>
+            <span><a href="../index.html">accueil</a></span>
+            <span><a href="./calculatrice/calculatrice.html">Calculatrice</a></span>
+        </nav>
+        <main class="container">
+            <div id="red" class="red" onclick="pos()"></div>
+            <div id="blue" class="blue" onclick="pos()"></div>
+            <div id="yellow"class="yellow" onclick="pos()"></div>
+            <div id="green" class="green" onclick="pos()"></div>
+        </main>
+        <div>
+            <div id="affichage">
+                0
+            </div>
+            <div>
+                <div class="row">
+                    <div class= tonbou>
+                        <div class="box">
+                            <button class="button CE">CE</button>
+                            <button id ="return"class="return">&#60-</button>
+                            <button class="button pourcent">%</button>
+                        </div>
+                        <div class="box">
+                            <button class="button seven">7</button>
+                            <button class="button eight">8</button>
+                            <button class="button nine">9</button>
+                        </div>
+                        <div class="box">
+                            <button class="button four">4</button>
+                            <button class="button five">5</button>
+                            <button class="button six">6</button>
+                        </div>
+                        <div class="box">
+                            <button class="button one">1</button>
+                            <button class="button two">2</button>
+                            <button class="button three">3</button>
+                        </div>
+                        <div class="box">
+                            <button class="button zero">0</button>
+                            <button class="button point">.</button>
+                            <button id="reset"class="button AC">AC</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <button class="button margin plus">+</button>
+                        <button class="button margin moin">-</button>
+                        <button class="button margin fois">*</button>
+                        <button class="button margin divi">/</button>
+                        <button id="result"class="egal">=</button>
+                    </div>
+                </div>
+            </div>        
+            
+        </div>
+        
+    
+    </body>
+</html>
